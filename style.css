@@ -1,0 +1,39 @@
+body{
+    margin: 2% 0 3% 0;
+    background-color: #fff7f4ec;
+}
+.container-vertical {
+    display: flex;
+    flex-direction: column;
+}
+.container-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main-menu {
+    text-decoration: none;
+    color: black;
+}
+.Title {
+    font-family: 'Indie Flower', cursive;
+    font-weight: 100;
+    font-size: 2.5em;
+    text-align: justify;
+    margin-top: 0em;
+    margin-bottom: 0.5em;
+}
+.button-text {
+    text-decoration: none;
+    color: black;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-top: 1em;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2.3em;
+}
+.button-text:hover {
+    transform: scale(1.3, 1.3);
+    transition: transform 0.5s;
+}
