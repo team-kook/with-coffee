@@ -2,6 +2,20 @@ body{
     margin: 2% 0 3% 0;
     background-color: #fff7f4ec;
 }
+.content-vertical {
+    display: flex;
+    flex-direction: column;
+}
+.map{
+    justify-content: center;
+}
+.info{
+    font-family: 'Indie Flower', cursive;
+    font-weight: 10;
+    font-size: 1em;
+    margin-left: 2em;
+    margin-top: 2em;
+}
 .container-vertical {
     display: flex;
     flex-direction: column;
